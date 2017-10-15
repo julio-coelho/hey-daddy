@@ -8,17 +8,3 @@
 .toolbar-spacer {
     flex: 1 1 auto;
 }
-.page-container {
-    min-height: calc(100vh - 64px);
-    overflow: auto;
-}
-.page-content {
-    position: relative;
-    z-index: 1;
-    display: block;
-    height: 100%;
-    overflow: auto;
-}
-.side-menu {
-    width: 15%;
-}

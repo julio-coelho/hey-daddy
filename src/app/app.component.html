@@ -5,19 +5,4 @@
   <mat-icon class="toolbar-icon">exit_to_app</mat-icon>
 </mat-toolbar>
 
-<mat-sidenav-container class="page-container">
-
-  <mat-sidenav #sidenav mode="side" opened="true" class="side-menu">
-    <mat-list>
-      <mat-list-item *ngFor="let menu of menus"> {{ menu }}</mat-list-item>
-    </mat-list>
-  </mat-sidenav>
-
-  <mat-sidenav-content class="page-content">
-    <mat-toolbar color="primary">
-      <span>Page Header</span>
-    </mat-toolbar>
-    <router-outlet></router-outlet>
-  </mat-sidenav-content>
-
-</mat-sidenav-container>
+<app-menu></app-menu>
