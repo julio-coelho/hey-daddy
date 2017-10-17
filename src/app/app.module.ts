@@ -8,11 +8,13 @@ import { AppComponent } from './app.component';
 import { AppMaterialModule } from './app-material.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MenuComponent } from './menu/menu.component';
+import { ContractComponent } from './contract/contract.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MenuComponent
+    MenuComponent,
+    ContractComponent
   ],
   imports: [
     BrowserModule,

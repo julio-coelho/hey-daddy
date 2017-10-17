@@ -29,7 +29,7 @@ export class MenuService {
 
         const newContract = new Menu();
         newContract.label = 'Nova';
-        newContract.link = '';
+        newContract.link = '/contract';
         newContract.icon = 'note_add';
         contract.submenu.push(newContract);
 
